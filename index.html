@@ -2533,6 +2533,7 @@ La niacine (vitamine B3) et la vitamine B6 contribuent à la réduction de la fa
   }
 
   // Signal pour ton code Webflow externe
+  window.__sceneReady = true;
   window.dispatchEvent(new CustomEvent('carousel:ready', { detail: carousel }));
 
   // #endregion Scroll Indicator
